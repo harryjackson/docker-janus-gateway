@@ -2,9 +2,9 @@ version: '2'
 
 services:
   janus-gateway:
-    image: linagora/docker-janus-gateway
+    image: janus/8x8_0.1
     ports:
-      - "80:80"
+      - "800:800"
       - "7088:7088"
       - "8088:8088"
       - "8188:8188"
